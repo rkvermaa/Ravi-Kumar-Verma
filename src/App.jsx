@@ -10,7 +10,7 @@ import Contact from './pages/contact/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Ravi-Kumar-Verma">
       <Navbar />
       <Themes />
       <Routes>
