@@ -16,11 +16,11 @@ const Home = () => {
                     <span>I'm Ravi Verma.</span> Data Scientist
                 </h1>
                 <p className='home__description'>
-                Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type 
-                specimen book. It has survived not only five centuries,
+                An enthusiast data scientist passionate about data and its potential to drive insights and create
+                value. I am constantly seeking to learn more about new techniques, tools, and applications of 
+                data science. I enjoy working with data, whether it’s cleaning and processing it, analyzing it, 
+                or visualizing it in creative ways. I am always look for new and interesting problems to solve with data, 
+                and am excited by the prospect of making a meaningful impact through their work
 
                 </p>
                 <Link to='/about' className='button'>

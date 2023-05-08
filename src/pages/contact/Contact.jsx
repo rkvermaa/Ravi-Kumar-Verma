@@ -4,6 +4,8 @@ import {
     FaEnvelopeOpen,
     FaPhoneSquareAlt,
     FaFacebookF,
+    FaLinkedinIn, 
+    FaGithub,  
     FaTwitter,
     FaYoutube,
     FaDribbble,
@@ -16,7 +18,7 @@ const Contact = () => {
     return (
         <section className="contact section">
             <h2 className="section__title">
-                Get In hello<span>Touch Me</span>
+                Get In<span>Touch Me</span>
             </h2>
             <div className="contact__container container grid">
                 <div className="contact__data">
@@ -31,7 +33,7 @@ const Contact = () => {
 
                             <div>
                                 <span className="info__title">Mail Me</span>
-                                <h4 className="info__desc">ravi@gmail.com</h4>
+                                <h4 className="info__desc">rkverma87@gmail.com</h4>
                             </div>
                         </div>
                         <div className="info__item">
@@ -39,26 +41,26 @@ const Contact = () => {
 
                             <div>
                                 <span className="info__title">Call Me</span>
-                                <h4 className="info__desc">7409210692</h4>
+                                <h4 className="info__desc">+91 7409210692</h4>
                             </div>
                         </div>
                     </div>
 
                     <div className="contact__socials">
-                        <a href="facebook.com" className="contact__social-link">
+                        <a href="https://www.facebook.com/ravi.k.verma.7/" className="contact__social-link">
                             <FaFacebookF />
                         </a>
 
-                        <a href="twitter.com" className="contact__social-link">
+                        <a href="https://twitter.com/rkv87" className="contact__social-link">
                             <FaTwitter />
                         </a>
 
-                        <a href="youtube.com" className="contact__social-link">
-                            <FaYoutube/>
+                        <a href="https://www.linkedin.com/in/ravi-kumar-verma-16837734/" className="contact__social-link">
+                            <FaLinkedinIn/>
                         </a>
 
-                        <a href="dribble.com" className="contact__social-link">
-                            <FaDribbble />
+                        <a href="https://github.com/rkvermaa" className="contact__social-link">
+                            <FaGithub />
                         </a>
                     </div>
                 </div>
